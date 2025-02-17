@@ -79,14 +79,3 @@ plt.xlabel("Epochs")
 plt.ylabel("Total Error")
 plt.title("Training Error Over Time")
 plt.show()
-
-
-'''
-Explanation:
-The network was trained for 10,000 epochs using the XOR dataset.
-The loss gradually decreased as the network learned the XOR function.
-The output predictions after training are close to [0, 1, 1, 0], which is the expected output for the XOR truth table.
-Tuning Parameters:
-You can experiment with the hidden_size (number of neurons in the hidden layer) and learning_rate to improve performance and convergence speed.
-The epochs value controls how many times the entire dataset is passed through the network during training. If necessary, you can adjust this number to reach a lower loss.
-'''
